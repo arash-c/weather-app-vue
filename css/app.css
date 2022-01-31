@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: sans-serif;
+    
+}
+
+
+#app {
+    background-image: url(https://source.unsplash.com/1600x900/?nature);
+    background-size: cover;
+    transition: 0.4s;
+    
+}
+
+main {
+    min-height: 100vh;
+    padding: 25px;
+    
+    background-image: linear-gradient(to bottom, rgb(0,0,0,0.15), rgb(0,0,0,0.35));
+}
+
+
+.search-box  {
+    display: block;
+    justify-content: center;
+    margin: auto;
+    width: 70%;
+    padding: 15px;
+    
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25) ;
+    background-color: rgb(255, 255, 255,0.7);
+    border-radius: 0px 16px 0px 16px;
+    transition:  0.5s;
+}
+
+.search-bar {
+    width: 100%;
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 25px;
+    color: #313131;
+}
+
+
+.search-box:hover {
+    border-radius: 16px 0px 16px 0px;
+}
+
+
+
+.location-box .location {
+    color: #fff;
+    font-size: 52px;
+    font-weight: 500;
+    font-stretch: wider;
+    text-align: center;
+    text-shadow: 1px 3px rgba(0, 0, 0, 0.25);
+    margin-top: 50px;
+}
+
+
+.location-box .date {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 500;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+
+.weather-box {
+    color: #fff;
+    font-size: 90px;
+    font-weight: 600;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 3px 6px rgba(0, 0, 0, 0.90);
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.temp {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.30);
+    text-shadow: rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    box-shadow: 3px 6px rgba(0, 0, 0, 0.25);
+    font-size: 130px;
+    font-weight: 600;
+    padding: 10px 25px;
+}
+
+
+
+.weather {
+    color: #fff;
+    text-shadow: rgba(0, 0, 0, 0.25);
+    margin-top: 50px;
+}
+
